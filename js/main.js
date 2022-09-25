@@ -36,7 +36,7 @@ validarEmail? document.getElementById('val-email').innerHTML=`Email Válido`:  s
   title: "Algo salio mal",
   text: "Ingresa datos válidos",
   icon: "error",
-  button: "reintentar",
+  button: "Reintentar",
 });
 
 
@@ -50,7 +50,7 @@ validarCampos? swal({
   title: "Usuario crerado",
   text: "Bienvenido",
   icon: "success",
-  button: "vamos!",
+  button: "Vamos!",
 }) : document.getElementById('bienvenidoUsuario').innerHTML=`Ingresar datos válidos`
 
 
