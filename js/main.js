@@ -81,16 +81,12 @@ function Verify () {
         }
         
 }else{
-        Swal.fire({
-  title: 'Usuario Inexistente!',
-   icon: 'error',
-  width: 500,
-  timer:'10000',
-  padding: '3em',
-  color: '#716add',
-  background: '#fffa ',
-  backdrop: `rgba(0,0,123,0.4)`
-    })
+        swal({
+  title: "Algo salió mal",
+  text: "Sin registro",
+  icon: "Error",
+  button: "Reintentar",
+})
    
 }
 }
